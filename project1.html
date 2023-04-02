@@ -1,0 +1,123 @@
+<html>
+    <head>
+        <title>Basic layout</title>
+       
+    </head>
+    <body>
+        <div id="wrapper">
+            <div id="header">
+                <h1>HTML Creation</h1>
+            </div>
+            <div id="menu">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+
+            <div id="content">
+                <h2>Design Basic Layout</h2>
+                <p>Layout design is the process of arranging visual and textual elements on-screen or on-paper in order to grab a reader's attention and communicate information in a visually appealing way.</p>
+                <p>The principles of design are the rules a designer must follow to create an effective and attractive composition. The fundamental principles of design are: Emphasis, Balance and Alignment, Contrast, Repetition, Proportion, Movement and White Space.</p>
+                <p>Watch this video by GCFLearnFree.org to get an understanding of five basic principles of layout and composition:
+                    Proximity.
+                    White space.
+                    Alignment.
+                    Contrast.
+                    Repetition.</p>
+            </div>
+            <div id="sidebar">
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">About us</a></li>
+                    <li><a href="">Gallery</a></li>
+                    <li><a href="">Contact us</a></li>
+                </ul>
+            </div>
+            <div id="footer">
+                rituparnad@590gmail.com
+            </div>
+        </div>
+    </body>
+</html>
+<style>
+    body{
+        font-family: arial,helvetica;
+        background: white;
+        margin: 0;
+        padding: 0;
+        
+    }
+       #wrapper{
+       border: 2px solid black;
+        width:1500px;
+    background: white;
+        margin: 0 auto;
+        
+        
+       }
+       #header {
+    background: crimson;
+     height: 100px;
+     color: white;
+       }
+       #header h1{
+        padding: 40px 0 0 20px;
+       
+       }
+       
+       #menu {
+     background:lightsalmon;
+       }
+       #menu ul{
+           margin: 0;
+           padding: 0;
+           
+       }
+       #menu li{
+        display: inline-block;
+        
+       }
+       #menu li a{
+        display: block;
+        padding: 10px 13px;
+        text-decoration: none;
+        color: black;
+       }
+       #menu li a:hover{
+        background: crimson;
+        color: white;
+       }
+       #content {
+         width: 800px;
+         float: left;
+         min-height: 500px;
+         padding: 10px;
+         box-sizing: border-box;
+        
+       }
+       #sidebar {
+         background:lightblue;
+         width: 200px;
+         float: right;
+         min-height: 500px;
+        
+         
+       }
+       #sidebar li{
+        padding: 10px;
+       }
+       #sidebar a{
+        text-decoration: none;
+        color: black;
+        
+       }
+       #footer {
+    background: lightseagreen;
+    clear: both;
+    padding: 5px 10px;
+    text-align: right;
+       }
+</style>
